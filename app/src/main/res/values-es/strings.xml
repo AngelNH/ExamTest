@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Prueba Examen</string>
+    <string name="bicycle_name">BICICLETA ANTIGUA</string>
+    <string name="color_string">Color</string>
+    <string name="button_small">P</string>
+    <string name="button_medium">M</string>
+    <string name="button_large">G</string>
+    <string name="button_extralarge">XG</string>
+    <string name="description_subtitle">Descripción</string>
+    <string name="measurement_subtitle">Medidas</string>
+    <string name="description_text">Personalizada, ligera con cuadro de aluminio, sin restaurar hermosa, original y perfectas condiciones. Ligeramente usada pero bien cuidada.</string>
+    <string name="measurement_text">Un texto de las medidas de la bicicleta.</string>
+    <string name="button_add_to_cart">AÑADIR AL CARRITO</string>
+    <string name="plus_like">+1 para las bicicletas antiguas</string>
+    <string name="added_to_cart_text">Añadido al carrito</string>
+    <string name="undo">UNDO</string>
+    <string name="button_added_to_cart">AÑADIDO AL CARRITO</string>
+    <string name="item_added">Este producto ya está en el carro</string>
+</resources>

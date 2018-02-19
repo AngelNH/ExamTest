@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:paddingHorizontal="@dimen/padding_radio"
+    android:paddingTop="@dimen/padding_radio">
+    <Button
+        android:id="@+id/button_small"
+        android:layout_width="@dimen/button_size"
+        android:layout_height="@dimen/button_size"
+        android:text="@string/button_small"
+        android:background="@drawable/button_img"
+        android:textSize="@dimen/button_text_size"
+        android:layout_marginHorizontal="@dimen/padding_radio"
+        android:onClick="onSizeConfig"/>
+    <Button
+        android:id="@+id/button_medium"
+        android:layout_width="@dimen/button_size"
+        android:layout_height="@dimen/button_size"
+        android:text="@string/button_medium"
+        android:background="@drawable/button_img"
+        android:textSize="@dimen/button_text_size"
+        android:layout_marginHorizontal="@dimen/padding_radio"
+        android:onClick="onSizeConfig"/>
+    <Button
+        android:id="@+id/button_large"
+        android:layout_width="@dimen/button_size"
+        android:layout_height="@dimen/button_size"
+        android:text="@string/button_large"
+        android:background="@drawable/button_img"
+        android:textSize="@dimen/button_text_size"
+        android:layout_marginHorizontal="@dimen/padding_radio"
+        android:onClick="onSizeConfig"/>
+    <Button
+        android:id="@+id/button_extralarge"
+        android:layout_width="@dimen/button_size"
+        android:layout_height="@dimen/button_size"
+        android:text="@string/button_extralarge"
+        android:background="@drawable/button_img"
+        android:textSize="@dimen/button_text_size"
+        android:layout_marginHorizontal="@dimen/padding_radio"
+        android:onClick="onSizeConfig"/>
+
+</LinearLayout>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.iteso.examtest.ActivityMain">
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/activity_main_coordinator">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/image_height"
+                android:scaleType="fitStart"
+                android:src="@drawable/bici_vintage" />
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/line_height"
+                android:background="@android:color/darker_gray"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight=".7"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bicycle_name"
+                    android:textSize="@dimen/title_size"
+                    android:padding="@dimen/padding_general"/>
+                <ImageButton
+                    android:layout_width="@dimen/like_button_size"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/like"
+                    android:background="@android:color/white"
+                    android:scaleType="centerInside"
+                    android:onClick="onLike"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/color_string"
+                android:padding="@dimen/padding_general"
+                android:textSize="@dimen/subtitle_size"
+                android:textColor="@color/black"/>
+
+            <include layout="@layout/layout_colors"/>
+
+            <include layout="@layout/layout_sizes"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/padding_general"
+                android:text="@string/description_subtitle"
+                android:textSize="@dimen/subtitle_size"
+                android:textColor="@color/black"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/description_text"
+                android:padding="@dimen/padding_general"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/padding_general"
+                android:text="@string/measurement_subtitle"
+                android:textSize="@dimen/subtitle_size"
+                android:textColor="@color/black"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/measurement_text"
+                android:padding="@dimen/padding_general"/>
+            <Button
+                android:id="@+id/button_add"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/button_add_to_cart"
+                android:padding="@dimen/padding_button_in"
+                android:backgroundTint="@color/gray"/>
+
+        </LinearLayout>
+    </android.support.design.widget.CoordinatorLayout>
+</ScrollView>

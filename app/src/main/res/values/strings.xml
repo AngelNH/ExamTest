@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">ExamTest</string>
+    <string name="bicycle_name">VINTAGE BICYCLE</string>
+    <string name="color_string">Color</string>
+    <string name="button_small">S</string>
+    <string name="button_medium">M</string>
+    <string name="button_large">L</string>
+    <string name="button_extralarge">XL</string>
+    <string name="description_subtitle">Description</string>
+    <string name="measurement_subtitle">Measurement</string>
+    <string name="description_text">Custom lightweight steel frame. Unrestored in beautiful original condition.Lightly used and well kept. Full super record build</string>
+    <string name="measurement_text">Some text for the measurement part unique for each bicycle</string>
+    <string name="button_add_to_cart">ADD TO CART</string>
+    <string name="plus_like">+1 to Vintage Bicycle</string>
+    <string name="added_to_cart_text">Added to cart</string>
+    <string name="undo">UNDO</string>
+    <string name="button_added_to_cart">ADDED TO CART</string>
+    <string name="item_added">Item already is in the Cart</string>
+</resources>
